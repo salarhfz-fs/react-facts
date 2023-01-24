@@ -1,7 +1,12 @@
+import Header from "./Header"
+import ReactFunfacts from "./ReactFunFacts"
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <Header />
+      <ReactFunfacts />
+    </>
   )
 }
 
