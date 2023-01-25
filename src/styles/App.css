@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #21222A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.brand {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.react-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.react-facts {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #61DAFB;
+    line-height: 2.7rem;
+}
+
+.project {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    color: #DEEBF8;
+}
+
+.main {
+    padding: 2rem;
+    color: #FFFFFF;
+    background-color: #282D35;
+    background-image: url('/react-icon-large.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.facts-list {
+    list-style: none;
+    margin: 0;
+    max-width: 40rem;
+}
+
+.facts-list li::before {
+    content: "\2022";
+    color: #61DAFB;
+    display: inline-block;
+    font-size: 2.2rem;
+    width: 2rem;
+    margin-left: -1em;
+}
+
+.facts-list li {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
